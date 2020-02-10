@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "snake", "snake\snake.csproj", "{30BF4795-1FB1-46D2-AA76-782304A161DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30BF4795-1FB1-46D2-AA76-782304A161DE}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{30BF4795-1FB1-46D2-AA76-782304A161DE}.Debug|anycpu.Build.0 = Debug|anycpu
+		{30BF4795-1FB1-46D2-AA76-782304A161DE}.Release|anycpu.ActiveCfg = Release|anycpu
+		{30BF4795-1FB1-46D2-AA76-782304A161DE}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal

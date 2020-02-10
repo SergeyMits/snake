@@ -1,0 +1,5 @@
+/Users/default/Desktop/snake/snake/snake/bin/Debug/snake.exe
+/Users/default/Desktop/snake/snake/snake/bin/Debug/snake.pdb
+/Users/default/Desktop/snake/snake/snake/obj/Debug/snake.csprojAssemblyReference.cache
+/Users/default/Desktop/snake/snake/snake/obj/Debug/snake.exe
+/Users/default/Desktop/snake/snake/snake/obj/Debug/snake.pdb
