@@ -36,6 +36,7 @@
     <Compile Include="VerticalLines.cs" />
     <Compile Include="Figure.cs" />
     <Compile Include="Snake.cs" />
+    <Compile Include="Direction.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
