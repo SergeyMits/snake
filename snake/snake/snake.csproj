@@ -38,6 +38,7 @@
     <Compile Include="Snake.cs" />
     <Compile Include="Direction.cs" />
     <Compile Include="FoodCreator.cs" />
+    <Compile Include="Walls.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />

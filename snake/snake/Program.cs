@@ -8,32 +8,31 @@ namespace snake
     {
         public static void Main(string[] args)
         {
-            //Console.SetBufferSize(80, 27);
+            Console.SetBufferSize(76, 20);
 
-            HorizontalLines upLine = new HorizontalLines(0, 78, 0, '+');
-            HorizontalLines downLine = new HorizontalLines(0, 78, 23, '+');
-            VerticalLines leftLine = new VerticalLines(0, 23, 0, '+');
-            VerticalLines rightLine = new VerticalLines(0, 23, 78, '+');
-            upLine.Drow();
-            downLine.Drow();
-            leftLine.Drow();
-            rightLine.Drow();
+            Walls walls = new Walls(20, 10);
+            walls.Draw();
 
             Point p = new Point(4, 5, '*');
             Snake snake = new Snake(p, 4, Direction.RIGHT);
-            snake.Drow();
+            snake.Draw();
 
-            FoodCreator foodCreator = new FoodCreator(80, 25, '$');
+            FoodCreator foodCreator = new FoodCreator(18, 8, '$');
             Point food = foodCreator.CreateFood();
             food.Draw();
 
             while (true)
             {
+                if (walls.IsHit(snake) || snake.IsHitTail())
+                {
+                    break;
+                }
+
                 if (snake.Eat(food))
                 {
                     food = foodCreator.CreateFood();
                     food.Draw();
-                    snake.Drow();
+                    //snake.Draw();
                 }
                 else
                 {
@@ -47,8 +46,8 @@ namespace snake
                     ConsoleKeyInfo key = Console.ReadKey();
                     snake.HandleKey(key.Key);
                 }
-                Thread.Sleep(150);
-                snake.Move();
+                //Thread.Sleep(150);
+                //snake.Move();
             }
              
         }

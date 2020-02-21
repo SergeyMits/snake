@@ -1,21 +1,22 @@
 ﻿<Properties StartupConfiguration="{30BF4795-1FB1-46D2-AA76-782304A161DE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="snake/FoodCreator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="snake/Walls.cs">
     <Files>
-      <File FileName="snake/Program.cs" Line="42" Column="35" />
-      <File FileName="snake/Point.cs" Line="53" Column="51" />
+      <File FileName="snake/Program.cs" Line="36" Column="34" />
+      <File FileName="snake/Point.cs" Line="58" Column="1" />
       <File FileName="snake/HorizontalLines.cs" Line="23" Column="1" />
       <File FileName="snake/VerticalLines.cs" Line="7" Column="6" />
-      <File FileName="snake/Figure.cs" Line="13" Column="20" />
-      <File FileName="snake/Snake.cs" Line="64" Column="30" />
+      <File FileName="snake/Figure.cs" Line="9" Column="21" />
+      <File FileName="snake/Snake.cs" Line="57" Column="23" />
       <File FileName="snake/Direction.cs" Line="9" Column="13" />
-      <File FileName="snake/FoodCreator.cs" Line="24" Column="34" />
+      <File FileName="snake/FoodCreator.cs" Line="21" Column="34" />
+      <File FileName="snake/Walls.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="snake" expanded="True">
             <Node name="snake" expanded="True">
-              <Node name="FoodCreator.cs" selected="True" />
+              <Node name="Walls.cs" selected="True" />
             </Node>
           </Node>
         </State>
